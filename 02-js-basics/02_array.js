@@ -6,10 +6,10 @@ marvel_heros.push(dc_heros)
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][0]);
 
-// const allheros = marvel_heros.concat(dc_heros) // concat add the array elemenst
+const allheros = marvel_heros.concat(dc_heros) // concat add the array elemenst
                                                // without manipluate orignal array 
                                                // its return new array
-// console.log(allheros);
+console.log(allheros);
 
 const new_marvel_heros = [...marvel_heros, ...dc_heros] // sprad oprator
 console.log(new_marvel_heros);
