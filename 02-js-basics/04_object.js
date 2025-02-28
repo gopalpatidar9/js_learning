@@ -59,4 +59,34 @@ console.log(Object.entries(tinderUser)); // return key and value in array
 
 console.log(tinderUser.hasOwnProperty("nam")); // return false
 
- 
+
+// +++++++++++++++++++ de structure ++++++++++++++++++++++++++
+
+const course = {
+    coursename: "Js Learning Advance",
+    price: "999",
+    courseInstructor: "Gopal"
+}
+
+// course.courseInstructor
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
+// ++++++++++++++++ json format +++++++++++++++++++++
+
+// {
+//     "name": "gopal",
+//     "fullname": "Gopal Patidar",
+//     "age": 20
+// }
+
+// [
+//     {}
+//     {}
+//     {}
+// ]
